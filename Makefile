@@ -16,6 +16,7 @@ else
 	endif
 endif
 
+# new comment
 # refers to dockerhub if registry is not specified
 IMAGE = $(REPO_NAME):$(VERSION)
 ifdef CONTAINER_REGISTRY
